@@ -1,4 +1,4 @@
-10.times do |n|
+100.times do |n|
     n += 1
     puts n
 end

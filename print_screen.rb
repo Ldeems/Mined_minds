@@ -1,7 +1,7 @@
 100.times do |n|
     n += 1
-    if (n % 2 == 0)
-    	puts "even"	
+    if (n == 3)
+    	puts "mined"	
     else puts n
     end	
 end

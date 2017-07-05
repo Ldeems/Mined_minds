@@ -1,14 +1,17 @@
 
 
 def mm_test(num)
-	if num == 3
-		"mined"
+	if 
+		num % 15 == 0
+		"mined_minds" 
 	elsif
-		num	== 5
-		"minds"
+		num % 3 == 0
+		"mined"
+		
 	elsif 
-		num == 15
-		"mined_minds"
+		num	% 5 == 0
+		"minds"
+		
 	else
 		num	
 	end

@@ -1,6 +1,7 @@
 
 
 def mm_test(num)
+	
 	if 
 		num % 15 == 0
 		"mined_minds" 

@@ -1,11 +1,10 @@
 require "minitest/autorun"
-require_relative "print_screen.rb"
 require_relative "mined_minds_function.rb"
 
 
 class Mined_mines_test < Minitest::Test
 
-	def test_1_equals_14
+	def test_1_equals_1
 		assert_equal(1,1)
 	end
 

@@ -7,6 +7,9 @@ class Array_test < Minitest::Test
 		assert_equal(1,1)
 	end		
 
+	def test_array
+		assert_equal(2,array(2))
+	end	
 	
 
 end

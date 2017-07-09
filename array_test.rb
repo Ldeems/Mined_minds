@@ -9,7 +9,11 @@ class Array_test < Minitest::Test
 
 	def test_array
 		assert_equal(2,array(2))
-	end	
+	end
+	
+	def test_array2
+		assert_equal("mined", array(3))
+	end		
 	
 
 end

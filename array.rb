@@ -1,6 +1,11 @@
 
 def array(x)
 	a = (0..100).to_a
-	a [x]
-end
+	if
+		x % 3 == 0
+		 "mined"
+	else	
+		a [x]
+	end	
 
+end

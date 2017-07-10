@@ -29,5 +29,13 @@ class Array_test < Minitest::Test
 
 	def test_array6
 		assert_equal("mined", array(99))
-	end	
+	end
+	
+	def test_array7
+		assert_equal("minds", array(95))
+	end
+
+	def test_array8
+		assert_equal("minedminds", array(45))
+	end			
 end
